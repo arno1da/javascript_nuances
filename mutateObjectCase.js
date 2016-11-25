@@ -6,6 +6,7 @@ mutateProperty = (property, newPropertyValue) => {
 };
 
 testCase1 = () => {
+	console.log("starting test case 1")
 	let testObject1 = {
 		propertyOne: {
 			valueOne: "Starting Value"
@@ -18,7 +19,7 @@ testCase1 = () => {
 	console.log(testObject1.propertyOne.valueOne);
 };
 
-// testCase1();
+testCase1();
 
 /*
 If we want to mutate we need to pass the partial object
@@ -29,6 +30,7 @@ mutatePropertyRevised = (objectCase, property, newPropertyValue) => {
 };
 
 testCase2 = () => {
+	console.log("starting test case 2")
 	let testObject2 = {
 		propertyOne: {
 			valueOne: "Starting Value"
