@@ -1,0 +1,23 @@
+{
+  "name": "javascript_nuances",
+  "version": "1.0.0",
+  "description": "list of interesting javascript design patterns and concepts",
+  "main": "mutateObjectCase.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aa-neg/javascript_nuances.git"
+  },
+  "author": "Arnold Agus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aa-neg/javascript_nuances/issues"
+  },
+  "homepage": "https://github.com/aa-neg/javascript_nuances#readme",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
